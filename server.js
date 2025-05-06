@@ -1,11 +1,13 @@
-import express from 'express';
-const app = express();
-const PORT = process.env.PORT || 8080;
-
-app.get('/ping', (req, res) => {
-  res.send('IAatende WebSocket ativo!');
-});
-
-app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
-});
+{
+  "name": "iaatende-websocket-server",
+  "version": "1.0.0",
+  "description": "Servidor WebSocket IAatende integrado ao ElevenLabs",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
