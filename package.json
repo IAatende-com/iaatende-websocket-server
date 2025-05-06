@@ -1,7 +1,7 @@
 {
   "name": "iaatende-websocket-server",
   "version": "1.0.0",
-  "description": "Servidor IAatende básico com endpoint /ping para teste.",
+  "description": "Servidor IAatende básico com Express",
   "main": "server.js",
   "type": "module",
   "scripts": {
