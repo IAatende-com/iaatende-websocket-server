@@ -1,16 +1,4 @@
-{
-  "name": "iaatende-websocket-server",
-  "version": "1.0.0",
-  "description": "Servidor WebSocket IAatende integrado ao ElevenLabs",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "ws": "^8.13.0",
-    "axios": "^1.6.5"
-  }
-}
+"scripts": {
+  "start": "node server.js"
+},
+"type": "module",
