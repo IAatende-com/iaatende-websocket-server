@@ -1,4 +1,13 @@
-"scripts": {
-  "start": "node server.js"
-},
-"type": "module",
+{
+  "name": "iaatende-websocket-server",
+  "version": "1.0.0",
+  "description": "Servidor IAatende básico com endpoint /ping para teste.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
